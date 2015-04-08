@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemMonitor", "SystemMonitor\SystemMonitor.csproj", "{D0F598A5-6BF9-48A2-BE20-2B1E959BA966}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://juliopolo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SystemMonitor\\SystemMonitor.csproj
+		SccProjectName1 = SystemMonitor
+		SccLocalPath1 = SystemMonitor
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0F598A5-6BF9-48A2-BE20-2B1E959BA966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F598A5-6BF9-48A2-BE20-2B1E959BA966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F598A5-6BF9-48A2-BE20-2B1E959BA966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F598A5-6BF9-48A2-BE20-2B1E959BA966}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

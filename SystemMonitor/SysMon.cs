@@ -13,8 +13,8 @@ namespace SystemMonitor
         { 
             get 
             {
-                PerformanceCounter _Core1 = new PerformanceCounter("Processor Information", "% Processor Time", "_Total");
-                return _Core1.RawValue;
+                PerformanceCounter _Core1 = new PerformanceCounter("Processor", "% Processor Time", "_Total");
+                return _Core1.NextValue();
             }
         }
 
@@ -22,8 +22,8 @@ namespace SystemMonitor
         {
             get
             {
-                PerformanceCounter _Core1 = new PerformanceCounter("Memory", "Available MBytes");
-                return _Core1.NextValue();
+                PerformanceCounter Mem1 = new PerformanceCounter("Memory", "Available MBytes");
+                return Mem1.NextValue();
             }
         }
     }

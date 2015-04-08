@@ -33,7 +33,6 @@ namespace SystemMonitor
         {
             Monitortimer.Enabled = true;
             
-            //_synth.
             _synth.SpeakAsync("Monitoreo iniciado");
         }
 
@@ -45,7 +44,7 @@ namespace SystemMonitor
 
         private void Monitortimer_Tick(object sender, EventArgs e)
         {
-            CoreUsagetextBox.Text =  _sysInfo.GetCoreUsageByPercent.ToString();
+            CoreUsagetextBox.Text = string.Format("{0:0.000}", _sysInfo.GetCoreUsageByPercent);
             MemoryUsagetextBox.Text = _sysInfo.GetMemoryCount.ToString();
         }
 
